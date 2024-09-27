@@ -10,7 +10,7 @@ export class MesaCentro extends Movel {
     }
 
     descricao(): string {
-        return `Sofá estilo ${this.estilo} com madeira da cor ${this.corMadeira}.`;
+        return `Mesa de centro estilo ${this.estilo} com madeira da cor ${this.corMadeira}.`;
     }
 
     calcularDesconto(taxa: number): number {
